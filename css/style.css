@@ -105,7 +105,7 @@ section.hero .hero-content {
     gap: 50px;
 }
 
-.btn--brown {
+.btn-pill {
     background-color: #382923;
     border: none;
     border-radius: 50px;
@@ -113,6 +113,24 @@ section.hero .hero-content {
     color: #FFFFFF;
     padding: 12px 50px;
     text-transform: uppercase;
+}
+
+.btn--brown {
+    background-color: #382923;
+}
+
+.btn--brown:hover {
+    background-color: #943519;
+    color: #FFFFFF;
+}
+
+.btn--cream {
+    background-color: #B2B098;
+    color: #FFFFFF;
+}
+
+.btn--cream:hover {
+    background-color: #B2B098;
 }
 
 .red-text {
